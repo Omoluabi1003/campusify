@@ -47,8 +47,8 @@ function CapabilityCard({ title, items }: { title: string; items: string[] }) {
     <div className="rounded-3xl border border-white/70 bg-white/75 p-6">
       <h2 className="text-lg font-semibold text-ink">{title}</h2>
       <ul className="mt-5 space-y-3">
-        {items.map((item) => (
-          <li key={item} className="flex gap-3 text-sm leading-6 text-slate-600">
+        {items.map((item, index) => (
+          <li key={index} className="flex gap-3 text-sm leading-6 text-slate-600">
             <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-campus" />
             <span>{item}</span>
           </li>
