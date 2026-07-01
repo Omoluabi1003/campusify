@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { siteConfig } from "@/lib/constants";
 
 export function Footer() {
@@ -10,9 +11,9 @@ export function Footer() {
         </div>
         <div className="flex flex-wrap gap-4 lg:justify-end">
           {siteConfig.navItems.map((item) => (
-            <a key={item.href} href={item.href} className="text-sm text-white/70 transition hover:text-white">
+            <Link key={item.href} href={item.href} className="text-sm text-white/70 transition hover:text-white">
               {item.label}
-            </a>
+            </Link>
           ))}
         </div>
       </div>
