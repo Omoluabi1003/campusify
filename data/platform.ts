@@ -54,6 +54,24 @@ export const platformModules: PlatformModule[] = [
     frontEndProgress: ["AI engine route", "Prompt-intent panels", "Usage-boundary messaging"],
     backEndProgress: ["AI boundary layer planned", "Request validation planned", "Usage tracking planned"],
     nextBuild: ["Create prompt boundary service", "Add scholarship matcher mock", "Define safety and rate-limit rules"]
+  },
+  {
+    slug: "language",
+    eyebrow: "Borderless access",
+    title: "Multilingual Console",
+    description: "A language console for English, French, Chinese, Japanese, Portuguese, Spanish, and future regional languages across onboarding, learning rooms, and academic discovery.",
+    frontEndProgress: ["Language route", "Locale-ready messaging", "Translation-aware module boundary"],
+    backEndProgress: ["Locale model planned", "User language preference planned", "Translation key strategy mapped"],
+    nextBuild: ["Add language selector", "Define locale config", "Prepare translated content keys"]
+  },
+  {
+    slug: "pricing",
+    eyebrow: "Sustainable model",
+    title: "Pricing and Access",
+    description: "A structured access model for free users, paid subscribers, institutions, restricted pages, KYC, and future identity-theft prevention workflows.",
+    frontEndProgress: ["Pricing route", "Access-tier messaging", "Restricted-page concept"],
+    backEndProgress: ["Subscription tier model planned", "KYC boundary planned", "Access-control model mapped"],
+    nextBuild: ["Add plan cards", "Define restricted-route guard", "Prepare billing boundary without paid API lock-in"]
   }
 ];
 
