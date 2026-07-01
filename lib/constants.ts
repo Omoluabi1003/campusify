@@ -5,11 +5,11 @@ export const siteConfig = {
   description:
     "A global academic platform for verified communities, research access, virtual lectures, scholarships, AI study tools, and multilingual learning.",
   navItems: [
-    { label: "Directory", href: "#directory" },
-    { label: "Profiles", href: "#profiles" },
-    { label: "Campus Room", href: "#campus-room" },
-    { label: "Research", href: "#research" },
-    { label: "Pricing", href: "#pricing" },
+    { label: "Directory", href: "/#directory" },
+    { label: "Profiles", href: "/#profiles" },
+    { label: "Campus Room", href: "/#campus-room" },
+    { label: "Research", href: "/#research" },
+    { label: "Pricing", href: "/#pricing" },
   ],
   cta: { label: "Join waitlist", href: "/auth" },
 };
