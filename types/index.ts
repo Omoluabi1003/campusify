@@ -1,3 +1,5 @@
+export * from "./domain";
+
 export type FeatureCategory =
   | "directory"
   | "identity"
