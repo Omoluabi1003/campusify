@@ -11,11 +11,11 @@ export const siteConfig = {
     location: "Florida, United States of America",
   } as const,
   navItems: [
-    { label: "Directory", href: "/#directory" },
-    { label: "Profiles", href: "/#profiles" },
-    { label: "Campus Room", href: "/#campus-room" },
-    { label: "Research", href: "/#research" },
-    { label: "Pricing", href: "/#pricing" },
+    { label: "Dashboard", href: "/dashboard" },
+    { label: "Directory", href: "/directory" },
+    { label: "Profiles", href: "/profiles" },
+    { label: "Campus Room", href: "/campus-room" },
+    { label: "Research", href: "/research" },
   ],
   cta: { label: "Join waitlist", href: "/auth" },
 };
