@@ -26,3 +26,161 @@ body {
 a {
   text-decoration: none;
 }
+
+.academic-backdrop {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 16% 18%, rgba(31, 122, 140, 0.16), transparent 24rem),
+    radial-gradient(circle at 84% 8%, rgba(214, 168, 91, 0.22), transparent 26rem),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.58), rgba(238, 243, 244, 0.64));
+}
+
+.academic-backdrop::before {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  background-image:
+    linear-gradient(rgba(10, 16, 32, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(10, 16, 32, 0.055) 1px, transparent 1px);
+  background-size: 4.5rem 4.5rem;
+  mask-image: radial-gradient(circle at center, black, transparent 72%);
+  animation: campus-grid-drift 26s linear infinite;
+}
+
+.campus-network {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle, rgba(31, 122, 140, 0.42) 0 2px, transparent 2.5px),
+    linear-gradient(115deg, transparent 0 28%, rgba(31, 122, 140, 0.12) 28.2% 28.6%, transparent 28.8% 100%),
+    linear-gradient(35deg, transparent 0 62%, rgba(214, 168, 91, 0.14) 62.2% 62.6%, transparent 62.8% 100%);
+  background-position: 0 0, center, center;
+  background-size: 7rem 7rem, 100% 100%, 100% 100%;
+  opacity: 0.42;
+  animation: campus-network-float 18s ease-in-out infinite alternate;
+}
+
+.campus-orb {
+  position: absolute;
+  display: block;
+  border-radius: 9999px;
+  filter: blur(1px);
+  opacity: 0.72;
+  animation: campus-orb-float 12s ease-in-out infinite alternate;
+}
+
+.campus-orb-one {
+  left: 6%;
+  top: 24rem;
+  height: 9rem;
+  width: 9rem;
+  background: rgba(31, 122, 140, 0.18);
+}
+
+.campus-orb-two {
+  right: 10%;
+  top: 8rem;
+  height: 13rem;
+  width: 13rem;
+  background: rgba(214, 168, 91, 0.2);
+  animation-delay: -5s;
+}
+
+.campus-orb-three {
+  bottom: 10%;
+  right: 22%;
+  height: 7rem;
+  width: 7rem;
+  background: rgba(15, 46, 89, 0.14);
+  animation-delay: -8s;
+}
+
+.hero-module {
+  transform-style: preserve-3d;
+}
+
+.rotating-campus-stack {
+  position: relative;
+  perspective: 1200px;
+}
+
+.hero-module-card {
+  animation: campus-card-cycle 14s ease-in-out infinite;
+  opacity: 0;
+  transform: translate3d(0, 4rem, -8rem) rotateX(14deg) scale(0.92);
+}
+
+.premium-card {
+  animation: campus-card-rise 700ms ease both;
+}
+
+@keyframes campus-card-cycle {
+  0%, 15% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) rotateX(0) scale(1);
+    z-index: 5;
+  }
+  23%, 38% {
+    opacity: 0.72;
+    transform: translate3d(0, 5.2rem, -5rem) rotateX(8deg) scale(0.94);
+    z-index: 4;
+  }
+  46%, 100% {
+    opacity: 0;
+    transform: translate3d(0, 9rem, -10rem) rotateX(16deg) scale(0.88);
+    z-index: 1;
+  }
+}
+
+@keyframes campus-card-rise {
+  from {
+    opacity: 0;
+    transform: translateY(1.25rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes campus-grid-drift {
+  from {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  to {
+    transform: translate3d(4.5rem, 4.5rem, 0) rotate(1deg);
+  }
+}
+
+@keyframes campus-network-float {
+  from {
+    transform: translateY(-0.75rem) scale(1);
+  }
+  to {
+    transform: translateY(0.75rem) scale(1.02);
+  }
+}
+
+@keyframes campus-orb-float {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(1.25rem, -1rem, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

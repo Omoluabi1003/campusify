@@ -2,9 +2,9 @@ import { ModulePage } from "@/components/ui/ModulePage";
 import { getPlatformModule } from "@/data/platform";
 
 export default function LanguagePage() {
-  const module = getPlatformModule("language");
+  const platformModule = getPlatformModule("language");
 
-  if (!module) return null;
+  if (!platformModule) return null;
 
-  return <ModulePage module={module} />;
+  return <ModulePage module={platformModule} />;
 }

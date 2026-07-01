@@ -24,17 +24,15 @@ export function ModulePage({ module }: ModulePageProps) {
           </div>
 
           <aside className="rounded-[2rem] bg-ink p-8 text-white shadow-soft">
-            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-gold">Build posture</p>
-            <p className="mt-4 text-sm leading-7 text-white/70">
-              Every PR must advance user value through frontend, backend, or platform-quality improvement. This route documents the current capability boundary before deeper implementation.
-            </p>
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-gold">Academic signal</p>
+            <p className="mt-4 text-sm leading-7 text-white/70">{module.signal}</p>
           </aside>
         </section>
 
         <section className="mt-8 grid gap-5 lg:grid-cols-3">
-          <CapabilityCard title="Frontend progress" items={module.frontEndProgress} />
-          <CapabilityCard title="Backend progress" items={module.backEndProgress} />
-          <CapabilityCard title="Next build" items={module.nextBuild} />
+          <CapabilityCard title="Campus layer" items={module.campusLayer} />
+          <CapabilityCard title="Trust layer" items={module.trustLayer} />
+          <CapabilityCard title="Academic pathway" items={module.pathway} />
         </section>
       </main>
       <Footer />

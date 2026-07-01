@@ -27,8 +27,10 @@ export interface PlatformModule {
   slug: string;
   eyebrow: string;
   title: string;
+  shortTitle: string;
   description: string;
-  frontEndProgress: string[];
-  backEndProgress: string[];
-  nextBuild: string[];
+  signal: string;
+  campusLayer: string[];
+  trustLayer: string[];
+  pathway: string[];
 }

@@ -15,7 +15,7 @@ export default function DashboardPage() {
             Campusify is now organized as a multi-surface academic platform.
           </h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-600">
-            Development is represented by {siteConfig.architect.company}. Every module below must mature through paired frontend and backend progress, not isolated one-off pages.
+            Campusify is represented by {siteConfig.architect.company}. Every module below is shaped as a dedicated academic surface with clear discovery, trust, and collaboration pathways.
           </p>
         </section>
 

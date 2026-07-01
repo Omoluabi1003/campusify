@@ -2,9 +2,9 @@ import { ModulePage } from "@/components/ui/ModulePage";
 import { getPlatformModule } from "@/data/platform";
 
 export default function DirectoryPage() {
-  const module = getPlatformModule("directory");
+  const platformModule = getPlatformModule("directory");
 
-  if (!module) return null;
+  if (!platformModule) return null;
 
-  return <ModulePage module={module} />;
+  return <ModulePage module={platformModule} />;
 }

@@ -2,9 +2,9 @@ import { ModulePage } from "@/components/ui/ModulePage";
 import { getPlatformModule } from "@/data/platform";
 
 export default function PricingPage() {
-  const module = getPlatformModule("pricing");
+  const platformModule = getPlatformModule("pricing");
 
-  if (!module) return null;
+  if (!platformModule) return null;
 
-  return <ModulePage module={module} />;
+  return <ModulePage module={platformModule} />;
 }
