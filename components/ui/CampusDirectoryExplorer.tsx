@@ -19,7 +19,7 @@ const institutionTypeLabels: Record<string, string> = {
   professional_body: "Professional Body",
 };
 
-export function CampusDirectoryExplorer({ institutions }: CampusDirectoryExplorerProps) {
+export function CampusDirectoryExplorer({ institutions = [] }: CampusDirectoryExplorerProps) {
   const [query, setQuery] = useState("");
   const [country, setCountry] = useState("all");
   const [type, setType] = useState("all");
