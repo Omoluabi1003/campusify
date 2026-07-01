@@ -20,3 +20,13 @@ export interface Metric {
   label: string;
   value: string;
 }
+
+export interface PlatformModule {
+  slug: string;
+  eyebrow: string;
+  title: string;
+  description: string;
+  frontEndProgress: string[];
+  backEndProgress: string[];
+  nextBuild: string[];
+}
