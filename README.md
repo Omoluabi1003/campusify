@@ -1,6 +1,6 @@
 # Campusitory
 
-Campusitory is a global academic platform connecting verified students, lecturers, institutions, researchers, and professional bodies through virtual lectures, research access, scholarships, AI study tools, multilingual learning, and secure academic communities.
+Campusitory is a global academic platform connecting verified students, lecturers, institutions, researchers, and professional bodies through virtual lectures, research access, scholarships, academic intelligence, multilingual learning, and secure academic communities.
 
 ## Project Representation
 
@@ -10,7 +10,7 @@ Every development decision should preserve the product posture as secure global 
 
 ## Vision
 
-The product goal is to become trusted academic infrastructure for borderless learning and research. The MVP starts with a premium public shell that validates positioning, core modules, and navigation before adding authentication, data persistence, and AI workflows.
+The product goal is to become trusted academic infrastructure for borderless learning and research. The MVP starts with a premium public shell that validates positioning, core modules, and navigation before adding authentication, data persistence, and intelligent workflows.
 
 ## Stack
 
@@ -30,7 +30,7 @@ The homepage includes professional, responsive sections for:
 - Campus Room
 - Scholarships and Opportunities
 - Research Library
-- AI Academic Engine
+- Academic Intelligence
 - Multilingual Console
 - Pricing Preview
 
@@ -54,7 +54,7 @@ public/                  Static assets
 
 ## Development Governance
 
-All contributors must follow the Campusify development map in [`docs/DEVELOPMENT_MAP.md`](docs/DEVELOPMENT_MAP.md).
+All contributors must follow the Campusitory development map in [`docs/DEVELOPMENT_MAP.md`](docs/DEVELOPMENT_MAP.md).
 
 Every pull request must show measurable improvement in at least one area:
 
@@ -94,4 +94,4 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 2. Build profile creation for students, lecturers, researchers, institutions, and professional bodies.
 3. Expand the institution directory with searchable, typed data models.
 4. Prototype Campus Room sessions for live lectures and office hours.
-5. Introduce an AI scholarship matcher after core data flows are validated.
+5. Introduce an academic scholarship matcher after core data flows are validated.
