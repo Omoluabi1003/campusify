@@ -54,7 +54,7 @@ public/                  Static assets
 
 ## Development Governance
 
-All contributors must follow the Campusify development map in [`docs/DEVELOPMENT_MAP.md`](docs/DEVELOPMENT_MAP.md).
+All contributors must follow the Campusitory development map in [`docs/DEVELOPMENT_MAP.md`](docs/DEVELOPMENT_MAP.md).
 
 Every pull request must show measurable improvement in at least one area:
 

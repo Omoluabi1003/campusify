@@ -47,7 +47,7 @@ export default function Home() {
               Verified learning, research, and opportunity networks for every campus.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-              Campusify is a premium academic infrastructure platform represented by {siteConfig.architect.company}, connecting discovery, identity, live learning, research, scholarships, and academic intelligence.
+              Campusitory is a premium academic infrastructure platform represented by {siteConfig.architect.company}, connecting discovery, identity, live learning, research, scholarships, and academic intelligence.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link href="/dashboard" className="rounded-full bg-ink px-7 py-4 text-center text-sm font-semibold text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-academy">
@@ -117,7 +117,7 @@ export default function Home() {
 
         <section className="relative mx-auto grid max-w-7xl gap-6 px-4 py-14 sm:px-6 lg:grid-cols-[0.8fr_1.2fr] lg:px-8">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-campus">How Campusify works</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-campus">How Campusitory works</p>
             <h2 className="mt-3 text-3xl font-bold tracking-tight text-ink sm:text-4xl">Process-based academic pathways from discovery to collaboration.</h2>
           </div>
           <div className="grid gap-4 md:grid-cols-3">
@@ -133,7 +133,7 @@ export default function Home() {
 
         <section className="relative mx-auto max-w-7xl px-4 pb-20 sm:px-6 lg:px-8">
           <div className="rounded-[2rem] bg-ink p-8 text-white shadow-soft md:p-10">
-            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-gold">Campusify advantage</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-gold">Campusitory advantage</p>
             <div className="mt-6 grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">A premium, modular foundation for global academic infrastructure.</h2>
               <div className="grid gap-3 sm:grid-cols-2">

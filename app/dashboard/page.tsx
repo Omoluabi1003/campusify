@@ -19,10 +19,10 @@ export default function DashboardPage() {
         <section className="rounded-[2rem] border border-white/70 bg-white/85 p-8 shadow-soft">
           <p className="text-sm font-semibold uppercase tracking-[0.24em] text-campus">Mission Control</p>
           <h1 className="mt-4 max-w-4xl text-4xl font-bold tracking-tight text-ink sm:text-5xl">
-            Operate the complete Campusify academic platform from one hub.
+            Operate the complete Campusitory academic platform from one hub.
           </h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-600">
-            Campusify is represented by {siteConfig.architect.company}. Its eleven modules work as one connected system for institutions, identity, learning, research, opportunities, trust, and global access.
+            Campusitory is represented by {siteConfig.architect.company}. Its eleven modules work as one connected system for institutions, identity, learning, research, opportunities, trust, and global access.
           </p>
         </section>
 

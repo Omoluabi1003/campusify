@@ -14,7 +14,7 @@ export default function AiEnginePage() {
             Academic intelligence that responds to schools, scholarships, research, and learning workflows.
           </h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-600">
-            This release introduces a working guidance preview powered by Campusify records and rules. It is intentionally local first, so the product proves value before adding external AI services.
+            This release introduces a working guidance preview powered by Campusitory records and rules. It is intentionally local first, so the product proves value before adding external AI services.
           </p>
         </section>
 

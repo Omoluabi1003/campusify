@@ -112,7 +112,7 @@ export const platformModules: PlatformModule[] = [
     eyebrow: "Academic intelligence",
     title: "Academic Intelligence",
     shortTitle: "Intelligence",
-    description: "Campusify AI search, recommendations, scheduling, academic assistant, research discovery, and intelligent matching.",
+    description: "Campusitory AI search, recommendations, scheduling, academic assistant, research discovery, and intelligent matching.",
     signal: "Academic assistance for study planning, scholarship matching, research discovery, and guided search.",
     campusLayer: ["AI search", "Recommendations and scheduling", "Research discovery"],
     trustLayer: ["Academic context first", "Transparent guidance", "Source-aware outputs"],

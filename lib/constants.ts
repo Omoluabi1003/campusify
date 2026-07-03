@@ -1,7 +1,7 @@
 import type { Metric } from "@/types";
 
 export const siteConfig = {
-  name: "Campusify",
+  name: "Campusitory",
   description:
     "A global academic platform for verified communities, research access, virtual lectures, scholarships, AI study tools, and multilingual learning.",
   architect: {

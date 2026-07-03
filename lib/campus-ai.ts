@@ -33,7 +33,7 @@ export function generateCampusInsight(input: string) {
     return {
       intent,
       title: "Institution discovery insight",
-      response: `Campusify found ${liveInstitutions.length} institution records across multiple school categories. Strong starting points include ${topInstitutions}. Use country, school type, and verification signals to narrow the path.`,
+      response: `Campusitory found ${liveInstitutions.length} institution records across multiple school categories. Strong starting points include ${topInstitutions}. Use country, school type, and verification signals to narrow the path.`,
       recommendedAction: "Open the Institution Directory and compare country, school type, and verification status.",
     };
   }
@@ -44,7 +44,7 @@ export function generateCampusInsight(input: string) {
     return {
       intent,
       title: "Opportunity guidance",
-      response: `Campusify matched ${eligible.length} opportunity pathways from the current data set. The strongest signals are program level, eligible countries, funding type, and application readiness.`,
+      response: `Campusitory matched ${eligible.length} opportunity pathways from the current data set. The strongest signals are program level, eligible countries, funding type, and application readiness.`,
       recommendedAction: "Review the Opportunity Engine cards and prepare profile data for future matching.",
     };
   }
@@ -53,7 +53,7 @@ export function generateCampusInsight(input: string) {
     return {
       intent,
       title: "Research discovery insight",
-      response: `Campusify found ${liveResearchItems.length} research records in the current library preview, including AI-assisted learning, academic identity, and scholarship matching themes.`,
+      response: `Campusitory found ${liveResearchItems.length} research records in the current library preview, including AI-assisted learning, academic identity, and scholarship matching themes.`,
       recommendedAction: "Open the Research Library and review abstracts by theme, author, and access level.",
     };
   }
@@ -69,8 +69,8 @@ export function generateCampusInsight(input: string) {
 
   return {
     intent,
-    title: "Campusify academic guidance",
-    response: "Campusify can guide users across institutions, opportunities, research, learning rooms, multilingual access, and academic identity. Try asking about schools, scholarships, research, or lecture workflows.",
-    recommendedAction: "Choose one academic path and let Campusify narrow the next step.",
+    title: "Campusitory academic guidance",
+    response: "Campusitory can guide users across institutions, opportunities, research, learning rooms, multilingual access, and academic identity. Try asking about schools, scholarships, research, or lecture workflows.",
+    recommendedAction: "Choose one academic path and let Campusitory narrow the next step.",
   };
 }

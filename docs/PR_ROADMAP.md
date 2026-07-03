@@ -1,4 +1,4 @@
-# Campusify PR Roadmap
+# Campusitory PR Roadmap
 
 This roadmap keeps development token-aware without isolating context. Every PR should connect to the platform map, preserve ETL GIS Consulting LLC representation, and show measurable frontend, backend, or platform-quality progress.
 

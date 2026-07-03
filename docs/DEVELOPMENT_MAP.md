@@ -1,13 +1,13 @@
-# Campusify Development Map
+# Campusitory Development Map
 
-Campusify is developed under the project architecture leadership of ETL GIS Consulting LLC. This map governs how the repository should evolve from foundation to production readiness.
+Campusitory is developed under the project architecture leadership of ETL GIS Consulting LLC. This map governs how the repository should evolve from foundation to production readiness.
 
 ## Ownership and Representation
 
 - Project architecture and development representation: ETL GIS Consulting LLC.
 - Strategic systems lead: Paul A. K. Iyogun.
 - Product posture: global academic infrastructure, not a generic learning management system.
-- Every major feature must preserve Campusify as a secure, verified, multilingual, AI-assisted academic ecosystem.
+- Every major feature must preserve Campusitory as a secure, verified, multilingual, AI-assisted academic ecosystem.
 
 ## PR Discipline
 
@@ -79,7 +79,7 @@ Backend deliverables:
 
 ### Phase 2: Institution Directory
 
-Goal: make Campusify useful even before live classroom features.
+Goal: make Campusitory useful even before live classroom features.
 
 Frontend deliverables:
 
@@ -115,7 +115,7 @@ Backend deliverables:
 
 ### Phase 4: Opportunity Engine
 
-Goal: turn Campusify into an academic opportunity marketplace.
+Goal: turn Campusitory into an academic opportunity marketplace.
 
 Frontend deliverables:
 
@@ -168,7 +168,7 @@ Backend deliverables:
 
 ### Phase 7: Internationalization
 
-Goal: prepare Campusify for global adoption.
+Goal: prepare Campusitory for global adoption.
 
 Frontend deliverables:
 

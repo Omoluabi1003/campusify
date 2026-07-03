@@ -1,14 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">Campusitory</title>
-  <desc id="desc">Campusitory Knowledge in Motion icon</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f172a"/>
-      <stop offset="0.52" stop-color="#1d4ed8"/>
-      <stop offset="1" stop-color="#14b8a6"/>
-    </linearGradient>
-  </defs>
-  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
-  <circle cx="256" cy="256" r="156" fill="none" stroke="rgba(255,255,255,0.34)" stroke-width="28"/>
-  <text x="256" y="318" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="188" font-weight="700" fill="#ffffff">C</text>
+  <desc id="desc">Campusitory Knowledge in Motion icon with a stylized C, book pages, and motion line</desc>
+  <rect width="512" height="512" rx="128" fill="#0A2240"/>
+  <path d="M332 150a132 132 0 1 0 0 212" fill="none" stroke="#F7F4ED" stroke-width="52" stroke-linecap="round"/>
+  <path d="M184 196c32-18 64-18 96 0v136c-32-16-64-16-96 0V196Z" fill="#F7F4ED" opacity="0.96"/>
+  <path d="M280 196c32-18 64-18 96 0v136c-32-16-64-16-96 0V196Z" fill="#F7F4ED" opacity="0.86"/>
+  <path d="M224 236h40M224 272h40M312 236h36M312 272h36" stroke="#0A2240" stroke-width="14" stroke-linecap="round"/>
+  <path d="M136 384c72-8 152-10 248-56" fill="none" stroke="#D6682C" stroke-width="32" stroke-linecap="round"/>
+  <circle cx="392" cy="324" r="24" fill="#D6682C"/>
 </svg>

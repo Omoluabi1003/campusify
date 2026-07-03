@@ -18,10 +18,10 @@ export function AcademicGuidancePanel() {
     <section className="mt-10 rounded-[2rem] border border-white/70 bg-ink p-6 text-white shadow-soft">
       <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-[0.24em] text-gold">Campusify intelligence</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.24em] text-gold">Campusitory intelligence</p>
           <h2 className="mt-4 text-3xl font-bold tracking-tight">Ask the academic guidance engine.</h2>
           <p className="mt-4 text-sm leading-7 text-white/70">
-            This preview uses Campusify records and academic rules to return structured guidance across schools, opportunities, research, and learning workflows.
+            This preview uses Campusitory records and academic rules to return structured guidance across schools, opportunities, research, and learning workflows.
           </p>
           <div className="mt-6 flex flex-wrap gap-2">
             {samplePrompts.map((prompt) => (

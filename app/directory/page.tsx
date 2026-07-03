@@ -14,7 +14,7 @@ export default function DirectoryPage() {
             Search schools, compare categories, and begin academic discovery with real data.
           </h1>
           <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-600">
-            Campusify now includes a working institution data layer covering universities, polytechnics, nursing schools, aviation schools, culinary institutes, and global academic pathways.
+            Campusitory now includes a working institution data layer covering universities, polytechnics, nursing schools, aviation schools, culinary institutes, and global academic pathways.
           </p>
         </section>
         <CampusDirectoryExplorer institutions={liveInstitutions} />

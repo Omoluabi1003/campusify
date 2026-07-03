@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Campusitory | Knowledge in Motion",
   description:
-    "Campusitory connects verified academic communities through virtual lectures, research access, scholarships, AI study tools, and multilingual learning.",
+    "Campusitory connects global academic communities through institutions, virtual lectures, research access, opportunities, academic intelligence, and multilingual learning.",
   applicationName: "Campusitory",
   manifest: "/manifest.webmanifest",
 };

@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { siteConfig } from "@/lib/constants";
+import { CampusitoryLogo } from "@/components/ui/CampusitoryLogo";
 
 export function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/50 bg-paper/90 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
-        <Link href="/" className="flex shrink-0 items-center gap-3" aria-label="Campusify home">
-          <span className="grid h-10 w-10 place-items-center rounded-2xl bg-academy text-lg font-bold text-white shadow-soft">C</span>
+        <Link href="/" className="flex shrink-0 items-center gap-3" aria-label="Campusitory home">
+          <CampusitoryLogo />
           <span className="text-lg font-semibold tracking-tight text-ink">{siteConfig.name}</span>
         </Link>
         <div className="hidden flex-1 items-center gap-2 overflow-x-auto xl:flex">

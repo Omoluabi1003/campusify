@@ -18,8 +18,8 @@ export default function OpenGraphImage() {
           flexDirection: "column",
           justifyContent: "space-between",
           padding: 72,
-          background: "linear-gradient(135deg, #06111f 0%, #123a74 48%, #0f766e 100%)",
-          color: "white",
+          background: "linear-gradient(135deg, #0A2240 0%, #0A2240 56%, #D6682C 100%)",
+          color: "#F7F4ED",
           fontFamily: "Arial, Helvetica, sans-serif",
         }}
       >
@@ -42,13 +42,13 @@ export default function OpenGraphImage() {
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <div style={{ fontSize: 72, fontWeight: 700, letterSpacing: -3 }}>Campusitory</div>
-            <div style={{ fontSize: 34, color: "#bfdbfe", marginTop: 8 }}>Knowledge in Motion</div>
+            <div style={{ fontSize: 34, color: "#F7F4ED", marginTop: 8 }}>Knowledge in Motion</div>
           </div>
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-          <div style={{ fontSize: 28, color: "#dbeafe" }}>Designed and Developed by ETL GIS Consulting LLC</div>
-          <div style={{ fontSize: 28, color: "#ccfbf1" }}>Platform Architecture by Paul A. K. Iyogun</div>
+          <div style={{ fontSize: 28, color: "#F7F4ED" }}>Designed and Developed by ETL GIS Consulting LLC</div>
+          <div style={{ fontSize: 28, color: "#F7F4ED" }}>Platform Architecture by Paul A. K. Iyogun</div>
         </div>
       </div>
     ),

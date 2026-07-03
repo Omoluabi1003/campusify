@@ -1,10 +1,10 @@
-# Campusify Domain Model Foundation
+# Campusitory Domain Model Foundation
 
-This document explains the first internal data contracts for Campusify. These are TypeScript-only models and do not create a database, API, or persistence commitment yet.
+This document explains the first internal data contracts for Campusitory. These are TypeScript-only models and do not create a database, API, or persistence commitment yet.
 
 ## Purpose
 
-The domain model gives Campusify a stable vocabulary before implementation expands into authentication, institution search, Campus Room, opportunities, research, subscriptions, multilingual access, and AI services.
+The domain model gives Campusitory a stable vocabulary before implementation expands into authentication, institution search, Campus Room, opportunities, research, subscriptions, multilingual access, and AI services.
 
 ## Current Model Groups
 

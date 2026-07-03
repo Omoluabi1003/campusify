@@ -10,9 +10,9 @@ export default function PlatformPage() {
       <Navbar />
       <main className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <section className="rounded-[2rem] border border-white/70 bg-white/85 p-8 shadow-soft backdrop-blur md:p-10">
-          <p className="text-sm font-semibold uppercase tracking-[0.24em] text-campus">Complete Campusify ecosystem</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.24em] text-campus">Complete Campusitory ecosystem</p>
           <h1 className="mt-4 max-w-4xl text-4xl font-bold tracking-tight text-ink sm:text-5xl">Eleven connected modules for global academic infrastructure.</h1>
-          <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-600">Campusify connects institutions, identity, live learning, research, opportunities, professional bodies, student life, academic intelligence, trusted access, and multilingual participation in one enterprise academic platform.</p>
+          <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-600">Campusitory connects institutions, identity, live learning, research, opportunities, professional bodies, student life, academic intelligence, trusted access, and multilingual participation in one enterprise academic platform.</p>
           <p className="mt-5 text-sm font-semibold text-ink">Designed and Developed by {siteConfig.architect.company}</p>
           <p className="mt-1 text-sm text-slate-600">Platform Architecture by {siteConfig.architect.lead}, Project Architect & Lead Developer</p>
         </section>
