@@ -1,5 +1,13 @@
 import { ImageResponse } from "next/og";
 
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
+
+async function getLogoDataUrl() {
+  const logo = await readFile(join(process.cwd(), "public/branding/campusitory-logo.png"));
+  return `data:image/png;base64,${logo.toString("base64")}`;
+}
+
 export const size = {
   width: 512,
   height: 512,
@@ -7,7 +15,9 @@ export const size = {
 
 export const contentType = "image/png";
 
-export default function Icon() {
+export default async function Icon() {
+  const logoUrl = await getLogoDataUrl();
+
   return new ImageResponse(
     (
       <div
@@ -17,15 +27,10 @@ export default function Icon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "linear-gradient(135deg, #0A2240 0%, #0A2240 58%, #D6682C 100%)",
-          color: "#F7F4ED",
-          fontFamily: "Arial, Helvetica, sans-serif",
-          fontSize: 178,
-          fontWeight: 700,
-          letterSpacing: -16,
+          background: "#0A2240",
         }}
       >
-        C
+        <img src={logoUrl} alt="Campusitory" style={{ width: 420, height: 420, objectFit: "contain" }} />
       </div>
     ),
     size,

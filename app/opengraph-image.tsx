@@ -1,5 +1,13 @@
 import { ImageResponse } from "next/og";
 
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
+
+async function getLogoDataUrl() {
+  const logo = await readFile(join(process.cwd(), "public/branding/campusitory-logo.png"));
+  return `data:image/png;base64,${logo.toString("base64")}`;
+}
+
 export const alt = "Campusitory — Knowledge in Motion";
 export const size = {
   width: 1200,
@@ -7,7 +15,9 @@ export const size = {
 };
 export const contentType = "image/png";
 
-export default function OpenGraphImage() {
+export default async function OpenGraphImage() {
+  const logoUrl = await getLogoDataUrl();
+
   return new ImageResponse(
     (
       <div
@@ -23,22 +33,20 @@ export default function OpenGraphImage() {
           fontFamily: "Arial, Helvetica, sans-serif",
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 28 }}>
           <div
             style={{
-              width: 96,
-              height: 96,
+              width: 116,
+              height: 116,
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
               borderRadius: 28,
               background: "rgba(255, 255, 255, 0.16)",
               border: "2px solid rgba(255, 255, 255, 0.38)",
-              fontSize: 48,
-              fontWeight: 700,
             }}
           >
-            C
+            <img src={logoUrl} alt="Campusitory" style={{ width: 92, height: 92, objectFit: "contain" }} />
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <div style={{ fontSize: 72, fontWeight: 700, letterSpacing: -3 }}>Campusitory</div>
